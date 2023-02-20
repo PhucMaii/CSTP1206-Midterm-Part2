@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.2/axios.min.js" integrity="sha512-NCiXRSV460cHD9ClGDrTbTaw0muWUBf/zB/yLzJavRsPNUl9ODkUVmUHsZtKu17XknhsGlmyVoJxLg/ZQQEeGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div>
+        <nav>
+           
+            <h1>"COLD" NEWS</h1>
+            <ul>
+                <li onclick="getData()">
+                    Home
+                </li>
+                <li onclick="getSports()">
+                   Sports
+                </li>
+                <li onclick="getPolitics()">
+                    Poilitics
+                </li>
+            </ul>
+            <input id="search-keyword" type="text" placeholder="Search for news!">
+            <button id="search" onclick="getImageDataByKeyword()">Search</button>
+        </nav>
+    </div>
+ 
+    <div id="container" class="container">
+
+        <div id="photo-section">
+
+        </div>
+    </div>
+</body>
+</html>
