@@ -1,3 +1,12 @@
+// Toggle the search bar
+const searchIcon = document.querySelector(".search-icon");
+const searchBar = document.querySelector("#search-keyword");
+
+searchIcon.addEventListener('click', () => {
+    searchBar.classList.toggle('active');
+})
+
+// fetch APIKEY
 const APIKEY = "a4a086387af94dceb1b2693fe3a02b43";
 let imagesData;
 const fetchesImages = async () => {
