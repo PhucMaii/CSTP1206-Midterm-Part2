@@ -19,6 +19,8 @@ header h2{
     color: brown;
     position: relative;
     left: 0;
+
+    cursor: pointer;
 }
 
 header input{
@@ -74,6 +76,7 @@ nav li {
     padding: 10px 20px;
     border-radius: 10px;
     margin-left: 40px;
+    cursor: pointer;
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
