@@ -55,11 +55,12 @@ const generateUI = (arrayOfImages) => {
         imageContainer.innerHTML = `
         <img class="newsImg" src=${imageObject.urlToImage}>
         <div class="content">
-            <h4>${imageObject.title}</h4>
+            <h3>${imageObject.title}</h3>
             <h5>Author: ${imageObject.author}</h5>
             <p>${imageObject.description}</p>
         </div>
         `
+
         let readMore = document.createElement('button');
         readMore.classList.add('readMore');
         readMore.textContent = "Read more";

@@ -108,6 +108,11 @@ nav li:hover{
     
 }
 
+.card h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .readMore{
     background-color: rgb(179, 72, 72);
     border: none;
